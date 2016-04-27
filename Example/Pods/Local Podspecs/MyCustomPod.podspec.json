@@ -1,0 +1,24 @@
+{
+  "name": "MyCustomPod",
+  "version": "0.1.0",
+  "summary": "A short description of MyCustomPod.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/MyCustomPod",
+  "license": "MIT",
+  "authors": {
+    "Stanislav Razbiegin": "stanislav.razbiegin@accelion.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/MyCustomPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MyCustomPod/Classes/**/*",
+  "resource_bundles": {
+    "MyCustomPod": [
+      "MyCustomPod/Assets/*.png"
+    ]
+  }
+}
